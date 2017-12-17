@@ -1,0 +1,229 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #0d1321;
+  h1 {
+    font-size: 2em;
+  }
+  nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .menu__list {
+      ul {
+        list-style-type: none;
+        margin-left: -60px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #fae22f;
+      }
+      li {
+        float: left;
+        a {
+          display: block;
+          color: #0d1321;
+          font-weight: bold;
+          text-align: center;
+          padding: 12px 18.85px 14px 18.85px;
+          font-size: 14px;
+          &:hover:not(.active) {
+            background-color: #EDE392;
+          }
+        }
+      }
+      .active {
+        background-color: #0d1321;
+        color: #fae22f;
+      }
+      :focus {
+        background-color: #EDE392;
+      }
+    }
+  }
+}
+
+.usuario {
+  padding-top: 20px;
+  font-size: 12px;
+  * {
+    padding-left: 5px;
+  }
+}
+
+.ayuda {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  * {
+    padding-left: 5px;
+  }
+}
+
+.buscar {
+  margin-top: 20px;
+  input {
+    background-image: url('ABSports/imagenes/Lupa.png');
+    background-repeat: no-repeat;
+  }
+}
+
+input {
+  border-radius: 8px;
+  padding-left: 16px;
+}
+
+h1 {
+  color: #fae22f;
+  text-align: center;
+  font-family: Verdana;
+}
+
+/* ACTIVIDADES EXTREMAS */
+
+#actExt {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Verdana;
+  figure img {
+    margin-top: 10px;
+  }
+}
+
+.imagen {
+  position: relative;
+  width: 100%;
+  article {
+    position: absolute;
+    top: 15px;
+    right: -20px;
+    color: white;
+    h2 {
+      color: #6E6E6E;
+      font-size: 24px;
+      padding-left: 20px;
+    }
+    p {
+      color: #6E6E6E;
+      font-size: 14px;
+      padding-top: 5px;
+      padding-left: 20px;
+    }
+    input {
+      margin-left: 30px;
+      width: 150px;
+      height: 70px;
+    }
+  }
+}
+
+/*   PROMOCIONES    */
+
+section {
+  text-align: center;
+  h2 {
+    margin-top: 140px;
+    font-size: 2em;
+    font-family: Verdana;
+    font-weight: normal;
+  }
+  .flecha img {
+    width: 30px;
+    margin-top: 180px;
+  }
+}
+
+.articulo {
+  margin-top: 30px;
+  background-color: lightgrey;
+  img {
+    width: 230px;
+    height: 250px;
+  }
+}
+
+.info {
+  background-color: lightgrey;
+  font-size: 15px;
+  font-family: Verdana;
+  text-align: left;
+  .titulo {
+    background-color: lightgrey;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 135px;
+  }
+  .estrellas {
+    background-color: lightgrey;
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 75px;
+    height: 30px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .precio {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 170px;
+    float: left;
+  }
+  .anyadir {
+    float: left;
+    padding-top: 15px;
+    width: 50px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.linea {
+  margin-top: 20px;
+  height: 2px;
+  background-color: grey;
+}
+
+/*   REDES SOCIALES    */
+
+figure {
+  text-align: center;
+  height: 100px;
+  a img {
+    padding-top: 26px;
+  }
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  height: 42px;
+  background-color: #0d1321;
+  color: white;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding-top: 17px;
+    padding-left: 11%;
+    font-size: 14px;
+    li a {
+      list-style: none;
+      text-decoration: none;
+      float: left;
+    }
+  }
+}

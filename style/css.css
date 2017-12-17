@@ -1,0 +1,61 @@
+* {
+  margin: 0 auto;
+  text-decoration: none;
+}
+html {
+  background-color: #0e0f19;
+}
+a {
+  color: white;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+h1{
+  font-family: Times New Roman;
+  font-size: 3em;
+  margin-top: 50px;
+  color:#edd380;
+}
+
+audio {
+  float:right;
+}
+
+/*   PROMOCIONES    */
+
+.foto {
+  margin-top:50px;
+  background-color: #efefd0;
+  text-align: center;
+}
+
+.info {
+  font-size:1.7em;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.linea {
+  margin-top:20px;
+  height: 2px;
+  background-color: grey;
+}
+
+.banner {
+  margin-top:50px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  color: white;
+  text-align: center;
+}
+footer p{
+  list-style: none;
+  padding-top:17px;
+  padding-bottom:17px;
+  font-size: 17px;
+  font-family: Verdana;
+}
